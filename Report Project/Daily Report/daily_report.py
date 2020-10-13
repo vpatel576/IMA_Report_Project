@@ -201,9 +201,9 @@ html = """<html>
 
 """
 
-sender = 'ima.quantops@gmail.com'
-receiver =  ['vpate56@illinois.edu','kylemv2@illinois.edu']#,'komol.patel@threekp.com']#'ishadhing@gmail.com']#'fshoaff2@illinois.edu', 'excell@illinois.edu','murphy99@illinois.edu']#,'joyl2@illinois.edu','kevinre3@illinois.edu','mabrito2@illinois.edu','johnt3@illinois.edu'] #ima_emails
-password = 'IMAQuantOps3$'
+sender = ##sender email
+receiver = ##receiver email
+password = ##password of the sender email
 date_today = today
 
 # Create message container - the correct MIME type is multipart/alternative.
