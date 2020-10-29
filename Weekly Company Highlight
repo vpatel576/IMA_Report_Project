@@ -1,0 +1,16 @@
+import pandas as pd
+import numpy as np
+from datetime import datetime
+import pandas_datareader as web
+from datetime import timedelta
+from info_data import info_dic
+
+tick = list(info_dic.keys())
+
+now = datetime.today().date()
+
+start = now - timedelta(days = 7)
+
+price = web.DataReader(tick, 'yahoo', start, now)['Adj Close']
+
+price[0] - price[-1]
