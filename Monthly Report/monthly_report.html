@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Monthly Report</title>
+	<style>
+		body {
+			overflow-x: hidden;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.main_head {
+			text-align: center;
+			font-size: 25px;
+			margin: 15px auto 0px auto;
+		}
+
+		.col {
+			float: left;
+			width: 25%;
+			text-align: center;
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+		.content_row {
+			display: inline-block;
+			margin-top: 40px;
+		}
+
+		.content_image {
+			width: 450px;
+		}
+
+		.content_left {
+			float: left;
+		}
+
+		.content_right {
+			float: right;
+		}
+
+		.content_text {
+			width: 50%;
+			border: 2px solid #000;
+			padding: 10px;
+		}
+
+		.corr_mat img {
+			width: 50%;
+			margin-left: 25%;
+			margin-right: auto;
+			margin-top: 20px;
+		}
+
+		.row {
+			margin-bottom: 50px;
+		}
+
+		.sec_head {
+			text-align: center;
+			font-size: 20px;
+			margin: 10px auto 10px auto;
+		}
+
+		.notable_event {
+			width: 80%;
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.notable_event p {
+			margin: 0px;
+		}
+
+		.index {
+			margin-bottom: 0px;
+		}
+
+		.spy,
+		.djia,
+		.nasdaq,
+		.r2000 {
+			margin: 0px;
+		}
+
+		.spy {
+			color: green;
+		}
+
+		.djia {
+			color: green;
+		}
+
+		.nasdaq {
+			color: red;
+		}
+
+		.r2000 {
+			color: red;
+		}
+
+		.index_info {
+			font-size: 10px;
+		}
+
+		table {
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.note {
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: right;
+		}
+
+		.price_alert {
+			margin-top: 5%;
+		}
+
+		.insights {
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.insights img {
+			width: 50%;
+			margin-left: 25%;
+			margin-right: auto;
+			margin-top: 20px;
+		}
+
+		footer p {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<p class='main_head'> Monthly Report (October)</p>
+	<div class="row">
+		<div class="col">
+			<p class="index"> S&amp;P 500</p>
+			<p class="spy">2,874.5</p>
+			<p class='spy index_info'>+100.0(+5.68%)</p>
+		</div>
+		<div class="col">
+			<p class="index">Dow 30</p>
+			<p class="djia">24,874.56</p>
+			<p class="djia index_info">+1004.8(+5.99%)</p>
+		</div>
+		<div class="col">
+			<p class="index">Nasdaq</p>
+			<p class="nasdaq">8,650.14</p>
+			<p class="nasdaq index_info">-90.91(-3.68%)</p>
+		</div>
+		<div class="col">
+			<p class="index">R 2000</p>
+			<p class="r2000">1,229.10</p>
+			<p class="r2000 index_info">-80.01(-2.88%)</p>
+		</div>
+	</div>
+
+
+
+	<div class="content_row">
+		<img class="content_right content_image" src="https://raw.githubusercontent.com/vpatel576/IMA_Report_Project/master/Graphs/Dec-2020/Dec_IMA_perf.PNG" alt="Returns Chart">
+		<p class="content_left content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<div class="content_row">
+		<img class="content_left content_image" src="https://raw.githubusercontent.com/vpatel576/IMA_Report_Project/master/Graphs/Nov-2020/Nov_corr_matrix.png">
+		<p class="content_right content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+	<div class="content_row">
+		<img class="content_right content_image" src="https://canonicalized.com/wp-content/uploads/2020/01/stock-market-treemap-tableau.png">
+		<p class="content_left content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+	<div class="content_row">
+		<img class="content_left content_image" src="https://static.seekingalpha.com/uploads/2018/9/25/saupload_sectorweights.png">
+		<p class="content_right content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<div class="price_alert">
+		<p class="sec_head"><u>Portfolio Statistics</u></p>
+		<table border='1' style="text-align: center">
+			<tr>
+				<th> </th>
+				<th> Volatility </th>
+				<th> Returns </th>
+				<th> Sharpe Ratio </th>
+				<th> Alpha<sup>**</sup></th>
+				<th> Beta<sup>**</sup></th>
+			</tr>
+			<tr>
+				<td>IMA</td>
+				<td>4.3%</td>
+				<td>2.06</td>
+				<td>1.38</td>
+				<td>3.2%</td>
+				<td>0.93</td>
+			</tr>
+			<tr>
+				<td>R2000</td>
+				<td>3.2%</td>
+				<td>2.02</td>
+				<td>1.01</td>
+				<td>--</td>
+				<td>1.00</td>
+		</table>
+		<p class="note">** Relative to Russell 2000</p>
+	</div>
+	<div class="price_alert">
+		<p class="sec_head"><u>Return Drivers</u></p>
+		<table border='1' style="text-align: center">
+			<tr>
+				<th> Tickers </th>
+				<th> Purchase Price </th>
+				<th> Current Price </th>
+				<th> Return </th>
+
+			</tr>
+			<tr>
+				<td>PLNT</td>
+				<td>$58.71</td>
+				<td>$60.80</td>
+				<td>5%</td>
+
+			</tr>
+			<tr>
+				<td>PLNT</td>
+				<td>$58.71</td>
+				<td>$60.80</td>
+				<td>5%</td>
+
+			</tr>
+			<tr>
+				<td>PLNT</td>
+				<td>$58.71</td>
+				<td>$60.80</td>
+				<td>5%</td>
+
+			</tr>
+			<tr>
+				<td>PLNT</td>
+				<td>$58.71</td>
+				<td>$60.80</td>
+				<td>5%</td>
+
+			</tr>
+			<tr>
+				<td>PLNT</td>
+				<td>$58.71</td>
+				<td>$60.80</td>
+				<td>5%</td>
+
+			</tr>
+
+		</table>
+	</div>
+	<div class="price_alert">
+		<p class="sec_head"><u>Return Decomposition</u></p>
+		<table border='1' style="text-align: center">
+			<tr>
+				<th> YTD </th>
+				<th> EPS </th>
+				<th> + P/E </th>
+				<th> = Price Return </th>
+				<th> + Dividens</th>
+				<th> = Total Return</th>
+
+			</tr>
+			<tr>
+				<td>S&amp;P 500</td>
+				<td>$58.71</td>
+				<td>$60.80</td>
+				<td>5%</td>
+				<td>$60.80</td>
+				<td>5%</td>
+			</tr>
+			<tr>
+				<td>Russell 2000</td>
+				<td>$58.71</td>
+				<td>$60.80</td>
+				<td>5%</td>
+				<td>$60.80</td>
+				<td>5%</td>
+			</tr>
+			<tr>
+				<td><b>YoY</b></td>
+				<td><b>EPS</b></td>
+				<td><b>+P/E</b></td>
+				<td><b>= Price Return</b></td>
+				<td><b>+ Dividens</b></td>
+				<td><b>= Total Return</b></td>
+			</tr>
+			<tr>
+				<td>S&amp;P 500</td>
+				<td>$58.71</td>
+				<td>$60.80</td>
+				<td>5%</td>
+				<td>$60.80</td>
+				<td>5%</td>
+			</tr>
+			<tr>
+				<td>Russell 2000</td>
+				<td>$58.71</td>
+				<td>$60.80</td>
+				<td>5%</td>
+				<td>$60.80</td>
+				<td>5%</td>
+			</tr>
+		</table>
+
+	</div>
+
+	<p class="sec_head"><u>Macroeconomic outlook by Professor Excell</u></p>
+	<div class="insights">
+		<img src="https://raw.githubusercontent.com/vpatel576/IMA_Report_Project/master/Graphs/Dec-2020/Dec_insight1.jpg" alt="Insights">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div> Source and additionally info:
+			<ul>
+				<li>
+					<a href="https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds">https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds</a>
+				</li>
+				<li> <a href="https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds">https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="insights">
+		<p class="sec_head insights"><u> Interesting phenomenon about the Energy Markets by [Portfolio Manager]</u></p>
+		<img src="https://raw.githubusercontent.com/vpatel576/IMA_Report_Project/master/Graphs/Dec-2020/Dec_insight1.jpg" alt="Insights">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div> Source and additionally info:
+			<ul>
+				<li>
+					<a href="https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds">https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds</a>
+				</li>
+				<li> <a href="https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds">https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds</a></li>
+			</ul>
+		</div>
+	</div>
+	<p class="sec_head"><u>Other Reading Recommendation</u></p>
+	<ul>
+		<li>
+			<a href="https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds">https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds</a> (Reccomended by Frank)
+		</li>
+		<li> <a href="https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds">https://www.oaktreecapital.com/insights/oaktree-insights/market-commentary/the-case-for-convertible-bonds</a> (Reccomended by John)</li>
+	</ul>
+</body>
+
+</html>
